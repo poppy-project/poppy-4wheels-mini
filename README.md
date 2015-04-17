@@ -16,7 +16,8 @@ Once you are happy with the design, it is also a good practice to create a relea
 If you work with github, we suggest to duplicate this repository using this method https://help.github.com/articles/duplicating-a-repository/ and as detailled next:
 
 ```
-# Create a new repository on your github account (https://help.github.com/articles/creating-a-new-repository/), let's call it https://github.com/exampleuser/poppy-creaturename-mini.git
+# Create a new repository on your github account (https://help.github.com/articles/creating-a-new-repository/)
+# Let's call it https://github.com/exampleuser/poppy-creaturename-mini.git
 
 # In whatever folder of yours, clone this repo:
 git clone --bare https://github.com/poppy-project/poppy-creature-mini-template.git
