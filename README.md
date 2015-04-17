@@ -10,23 +10,23 @@ A good practice is to add a picture/video of your robot here and explain how to 
 
 Once you are happy with the design, it is also a good practice to create a release with the ready to use stl files.
 
+### How to use this
+
 If you work with github, we suggest to duplicate this repository using this method https://help.github.com/articles/duplicating-a-repository/ and as detailled next:
 
-- create an **empty** repository on your github account (https://help.github.com/articles/creating-a-new-repository/), let's call it https://github.com/exampleuser/poppy-creaturename-mini.git
-- in whatever folder of yours, clone this repo: 
-  ```
+```
+# Create an **empty** repository on your github account (https://help.github.com/articles/creating-a-new-repository/), let's call it https://github.com/exampleuser/poppy-creaturename-mini.git
+
+# In whatever folder of yours, clone this repo: 
   git clone --bare https://github.com/poppy-project/poppy-creature-mini-template.git
-  ```
-- enter the repo: 
-```
+
+# Move in the repo: 
   cd poppy-creature-mini-template.git
-```
-- and mirror it to your repo: 
-```
+
+# Mirror it to your new repo: 
   git push --mirror https://github.com/exampleuser/poppy-creaturename-mini.git
-```
-- then delete the temporary repo: 
-```
+
+# Then delete the temporary repo: 
 cd ..
 rm -rf poppy-creature-mini-template.git
 ```
