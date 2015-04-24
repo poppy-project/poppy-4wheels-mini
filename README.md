@@ -1,6 +1,6 @@
 # poppy-creature-mini-template
 
-This is the basics required to create a poppy mini creature. Poppy mini creatures are built from [XL320 motors](http://support.robotis.com/en/product/dynamixel/xl-series/xl-320.htm) from [Robotis](http://en.robotis.com/index/). Motors are linked together with [parametrable frames](https://github.com/jgrizou/robotis-scad) designed with [OpenScad](http://www.openscad.org/). The resulting robots are controlled using the [pypot library](https://github.com/poppy-project/pypot), typically running on a Raspberry Pi. These robots aim at being low cost and easy to modify.
+This repository contains the basic elements required to create a poppy mini creature. Poppy mini creatures are built from [XL320 motors](http://support.robotis.com/en/product/dynamixel/xl-series/xl-320.htm) from [Robotis](http://en.robotis.com/index/). Motors are linked together with [parametrable frames](https://github.com/jgrizou/robotis-scad) designed with [OpenScad](http://www.openscad.org/). The resulting robots are controlled using the [pypot library](https://github.com/poppy-project/pypot), typically running on a Raspberry Pi. These robots aim at being low cost and easy to modify.
 
 A typical poppy-creaturename-mini repository includes a hardware, a software, and a doc folder:
 - The [hardware](hardware) folder should include the 3D parts. This template already includes the submodules needed to create frames between XL320 motors using OpenScad.
