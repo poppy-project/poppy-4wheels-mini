@@ -7,7 +7,7 @@ A typical poppy-creaturename-mini repository includes a hardware, a software, an
 - The [software](software) folder should contain the [pypot](https://github.com/poppy-project/pypot) config files specific to your robot.
 - The [doc](doc) folder should contain the documentation. A good practice is to add a picture/video of your robot and explain how to get started.
 
-Once you are happy with the design, it is also a good practice to create a release with the ready to use stl files and to create in the file [./hardware/parts/BOM.md](hardware/parts/BOM.md) listing the number of each part required for the robot.
+Once you are happy with the design, it is also a good practice to create a release with the ready to use stl files and to create in the file [hardware/parts/BOM.md](hardware/parts/BOM.md) listing the number of parts required to build the robot.
 
 Refer to [poppy-ergo-jr](https://github.com/poppy-project/poppy-ergo-jr) for an example.
 
