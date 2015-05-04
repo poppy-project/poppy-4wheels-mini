@@ -16,5 +16,13 @@ scadArg="\$fn=$fn"
 mkdir -p stl;
 
 # should be automated for all file in the folder
-echo "Generating partName..."
-openscad -o stl/partName.stl partName.scad -D $scadArg
+echo "Generating 4wheels_base..."
+openscad -o stl/4wheels_base.stl 4wheels_base.scad -D $scadArg
+
+# should be automated for all file in the folder
+echo "Generating simple_wheel..."
+openscad -o stl/simple_wheel.stl simple_wheel.scad -D $scadArg
+
+# should be automated for all file in the folder
+echo "Generating ollo_to_lego_axle..."
+openscad -o stl/ollo_to_lego_axle.stl ollo_to_lego_axle.scad -D $scadArg
