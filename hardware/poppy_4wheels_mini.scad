@@ -5,14 +5,19 @@ use <robotis-scad/dynamixel/xl320.scad>
 
 use <specific_frames/4wheels_base_frame.scad>
 use <specific_frames/wheel_frame.scad>
+use <specific_frames/ollo_to_lego_axle.scad>
+
 
 use <MCAD/rotate.scad>;
 
 module add_wheel(wheelType) {
   xl320();
-  translate([0,0,MotorHeight/2+OlloLayerThickness])
-  if (wheelType == "simple")
-    simple_wheel(diameter=WheelDiameter);
+  translate([0,0,MotorHeight/2+OlloLayerThickness]){
+    if (wheelType == "simple")
+      simple_wheel(diameter=WheelDiameter);
+    if (wheelType == "lego")
+        ollo_to_lego_axle(AxleLength);
+  }
 }
 
 module poppy_4wheels_mini(wheelType="simple") {
@@ -40,5 +45,8 @@ echo("##########");
 p = 1;
 nLayer = 1;
 if (p==1) {
-  poppy_4wheels_mini();
+  poppy_4wheels_mini("simple");
+
+  translate([2*4WheelsFrameWidthSpacing,0,0])
+    poppy_4wheels_mini("lego");
 }

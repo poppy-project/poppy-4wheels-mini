@@ -8,3 +8,5 @@ include <robotis-scad/ollo_segments/ollo_segments_def.scad>
 MiddleBarWidth = OlloSegmentWidth;
 
 WheelDiameter = 2*OlloSegmentWidth;
+
+AxleLength = 15;
