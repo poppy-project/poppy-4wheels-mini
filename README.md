@@ -1,4 +1,6 @@
-poppy-4wheels-mini
+# poppy-4wheels-mini
+
+A base for a 4 wheels drive mini creature
 
 ![IMG View](doc/img/poppy_4wheels_mini.png)
 
