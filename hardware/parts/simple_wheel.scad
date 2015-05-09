@@ -1,5 +1,5 @@
 include <../poppy_4wheels_mini_def.scad>
 
-use <../specific_frames/wheel_frame.scad>
+use <../robotis-scad/specific_frames/wheel_tools.scad>
 
 simple_wheel(diameter=WheelDiameter);
